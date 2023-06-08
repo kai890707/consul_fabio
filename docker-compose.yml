@@ -6,6 +6,7 @@ services:
     restart: always
     volumes:
      - ./server.json:/consul/config/server.json:ro
+     - ./watch.json:/consul/config/watch.json:ro
     network_mode: bridge
     ports:
       - "8500:8500"

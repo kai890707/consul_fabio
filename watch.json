@@ -1,0 +1,15 @@
+{
+  "watches": [
+    {
+      "type": "checks",
+      "state": "passing",
+      "handler_type": "http",
+      "http_handler_config": {
+        "path": "http://140.127.74.137:8090",
+        "method": "GET",
+        "timeout": "10s"
+      }
+    }
+  ]
+}
+
