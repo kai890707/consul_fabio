@@ -4,14 +4,14 @@ require_once './function.php';
 $serviceList = [
     '
         {
-            "id":"Product-Service1",
-            "name": "Product-Service",
-            "tags": ["Anser","http_scheme=http","HTTP","ProductService","urlprefix-/ProductService strip=/ProductService"],
+            "id":"product_service1",
+            "name": "product_service",
+            "tags": ["Anser","http_scheme=http","HTTP","product_service","urlprefix-/product_service strip=/product_service"],
             "address":"10.1.1.3",
             "port": 8081,
             "check": {
-                "name": "Product-Service",
-                "service_id": "Product-Service1",
+                "name": "product_service",
+                "service_id": "product_service1",
                 "http": "http://10.1.1.3:8081/api/v1/products",
                 "interval": "60s",
                 "timeout": "5s"
@@ -20,14 +20,14 @@ $serviceList = [
     ',
     '
         {
-            "id":"Product-Service2",
-            "name": "Product-Service",
-            "tags": ["Anser","http_scheme=http","HTTP","ProductService","urlprefix-/ProductService strip=/ProductService"],
+            "id":"product_service2",
+            "name": "product_service",
+            "tags": ["Anser","http_scheme=http","HTTP","product_service","urlprefix-/product_service strip=/product_service"],
             "address":"10.1.1.2",
             "port": 8081,
             "check": {
-                "name": "Product-Service",
-                "service_id": "Product-Service2",
+                "name": "product_service",
+                "service_id": "product_service2",
                 "http": "http://10.1.1.2:8081/api/v1/products",
                 "interval": "60s",
                 "timeout": "5s"
@@ -36,14 +36,14 @@ $serviceList = [
     ',
     '
         {
-            "id":"Order-Service1",
-            "name": "Order-Service",
-            "tags": ["Anser","http_scheme=http","HTTP","OrderService","urlprefix-/OrderService strip=/OrderService"],
+            "id":"order_service1",
+            "name": "order_service",
+            "tags": ["Anser","http_scheme=http","HTTP","order_service","urlprefix-/order_service strip=/order_service"],
             "address":"10.1.1.4",
             "port": 8082,
             "check": {
-                "name": "Order-Service",
-                "service_id": "Order-Service1",
+                "name": "order_service",
+                "service_id": "order_service1",
                 "http": "http://10.1.1.4:8082/api/v1/",
                 "interval": "60s",
                 "timeout": "5s"
@@ -52,14 +52,14 @@ $serviceList = [
     ',
     '
         {
-            "id":"Payment-Service1",
-            "name": "Payment-Service",
-            "tags": ["Anser","http_scheme=http","HTTP","PaymentService","urlprefix-/PaymentService strip=/PaymentService"],
+            "id":"payment_service1",
+            "name": "payment_service",
+            "tags": ["Anser","http_scheme=http","HTTP","payment_service","urlprefix-/payment_service strip=/payment_service"],
             "address":"10.1.1.5",
             "port": 8083,
             "check": {
-                "name": "Payment-Service",
-                "service_id": "Payment-Service1",
+                "name": "payment_service",
+                "service_id": "payment_service1",
                 "http": "http://10.1.1.5:8083/api/v1/",
                 "interval": "10s",
                 "timeout": "5s"
