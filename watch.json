@@ -5,7 +5,7 @@
       "state": "passing",
       "handler_type": "http",
       "http_handler_config": {
-        "path": "http://140.127.74.137:8090",
+        "path": "http://localhost:8082/watch",
         "method": "GET",
         "timeout": "10s"
       }
